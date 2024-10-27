@@ -1,5 +1,5 @@
 <!-- First Section: Past Electronic Music Productions -->
-<p>This is the page for my productions showcase, for my research output demos: (<a href="https://shinxinyangdemo.github.io/shinxinyangdemo.github.io-research/" target="_blank">shinxinyangdemo.github.io/shinxinyangdemo.github.io-research/</a>)</p>
+<p>This is the page for my productions showcase, for my research output demos: (<a href="https://shinxinyangdemo.github.io/shinxinyangdemo.github.io-rs/" target="_blank">shinxinyangdemo.github.io/shinxinyangdemo.github.io-rs//</a>)</p>
 <h1>Past Electronic Music Productions Previews, released in 2020</h1>
 
 <!-- Description -->
