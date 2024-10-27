@@ -4,7 +4,7 @@
 
 <!-- Description -->
 <p>
-    These releases under the name 'ussoanah' (<a href="https://soundcloud.com/ussoanah/tracks" target="_blank">soundcloud.com/ussoanah/tracks</a>) reflect my early exploration of electronic music, experimenting with a variety of genres, aiming for more impactful mixes and unique sound designs. Although quite different from my current productions, I still appreciate the creativity and concepts behind these tracks.
+    These releases under the name 'ussoanah' (<a href="https://soundcloud.com/ussoanah/tracks" target="_blank">soundcloud.com/ussoanah/tracks</a>) reflect my early exploration of electronic music, experimenting with a variety of genres, aiming for more impactful mixes and unique sound designs. Although quite different from my current productions, I still like the ideas behind these tracks.
 </p>
 
 <!-- Add CSS for Grid Layout -->
@@ -176,5 +176,7 @@
 </div>
 
 
-
 <p>"Back when Work-in-progress, one of the theatre scenes, depicting replicas of small towns from the 1990s."</p>
+
+<h1>End</h1>
+<p>Thank you for taking the time to explore my work! If you’d like to see more, I’d be glad to share additional projects. I’m confident that my experience and insights can provide valuable guidance and constructive feedback to support students in their creative endeavors.</p>
