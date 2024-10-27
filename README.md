@@ -3,7 +3,7 @@
 
 <!-- Description -->
 <p>
-    These releases reflect my early exploration of electronic music, experimenting with a variety of genres, bold mixes, and unconventional sound designs. Although they differ from my current style, I still appreciate the creativity and concepts behind these tracks.
+    These releases under the name 'ussoanah', soundcloud.com/ussoanah/tracks, reflect my early exploration of electronic music, experimenting with a variety of genres, trying to achieve more impactful mixes, weird sound designs. Although quite differ from my current productions, I still like the creativity and concepts behind these tracks.
 </p>
 
 <!-- Add CSS for Flexbox -->
