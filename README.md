@@ -47,7 +47,7 @@
 </div>
 
 
-<img src="live.jpg" alt="" style="width: 66%; height: auto;">
+<img src="live.jpg" alt="" style="width: 100%; height: auto;">
 
 <!-- Second Section: Current Electronic Music Productions -->
 <h1>Current Electronic Music Productions Previews</h1>
