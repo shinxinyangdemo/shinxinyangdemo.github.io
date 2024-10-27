@@ -1,23 +1,51 @@
 <!-- First Section: Past Electronic Music Productions -->
 <h1>Past Electronic Music Productions Previews</h1>
 
-<h3>Binds</h3>
-<audio controls>
-    <source src="binds_preview.wav" type="audio/wav">
-    Your browser does not support the audio element.
-</audio>
+<!-- Add CSS for Flexbox -->
+<style>
+    .audio-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;  /* Space between elements */
+    }
+    .audio-item {
+        flex: 1;
+        text-align: center;
+    }
+    audio {
+        width: 100%;
+    }
+</style>
 
-<h3>Summer Was Fun</h3>
-<audio controls>
-    <source src="summer was fun_preview.wav" type="audio/wav">
-    Your browser does not support the audio element.
-</audio>
+<!-- Flexbox Container for Audio Previews -->
+<div class="audio-row">
+    <div class="audio-item">
+        <h3>Binds</h3>
+        <audio controls>
+            <source src="binds_preview.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 
-<h3>Deep Like the Ocean</h3>
-<audio controls>
-    <source src="deep like the ocean_preview.wav" type="audio/wav">
-    Your browser does not support the audio element.
-</audio>
+    <div class="audio-item">
+        <h3>Summer Was Fun</h3>
+        <audio controls>
+            <source src="summer was fun_preview.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="audio-item">
+        <h3>Deep Like the Ocean</h3>
+        <audio controls>
+            <source src="deep like the ocean_preview.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+
 
 <img src="live.jpg" alt="" style="width: 66%; height: auto;">
 
