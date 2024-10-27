@@ -1,4 +1,5 @@
 <!-- First Section: Past Electronic Music Productions -->
+<p>This is the page for my productions showcase, for my research output demos: (<a href="https://shinxinyangdemo.github.io/shinxinyangdemo.github.io-research/" target="_blank">shinxinyangdemo.github.io/shinxinyangdemo.github.io-research/</a>)</p>
 <h1>Past Electronic Music Productions Previews, released in 2020</h1>
 
 <!-- Description -->
@@ -176,4 +177,4 @@
 
 
 
-<p>"Back when Work-in-progress theatre scenes depicting replicas of small towns from the 1990s."</p>
+<p>"Back when Work-in-progress one of the theatre scenes, depicting replicas of small towns from the 1990s."</p>
