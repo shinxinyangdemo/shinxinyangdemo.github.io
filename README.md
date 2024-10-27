@@ -3,7 +3,7 @@
 
 <!-- Description -->
 <p>
-    These releases under the name 'ussoanah', soundcloud.com/ussoanah/tracks, reflect my early exploration of electronic music, experimenting with a variety of genres, trying to achieve more impactful mixes, weird sound designs. Although quite differ from my current productions, I still like the creativity and concepts behind these tracks.
+    These releases under the name 'ussoanah', soundcloud.com/ussoanah/tracks, reflect my early exploration of electronic music, experimenting with a variety of genres, trying to achieve more impactful mixes, weird sound designs. Although quite different from my current productions, I still like the creativity and concepts behind these tracks.
 </p>
 
 <!-- Add CSS for Flexbox -->
@@ -68,28 +68,61 @@
 
 
 <!-- Second Section: Current Electronic Music Productions -->
-<h1>Current Electronic Music Productions Previews</h1>
+<h1>Current Electronic Music Productions Previews (Unreleased)</h1>
 
-<h3>All The Way (Preview)</h3>
-<audio controls>
-    <source src="all_the_way_preview.wav" type="audio/wav">
-    Your browser does not support the audio element.
-</audio>
+<!-- Improved Description -->
+<p>
+    Way better mixed. Focusing on tech house—one of today’s most popular genres. They showcase my latest mixing & mastering style, structures, and arrangements, laying the groundwork for my upcoming project.
+</p>
 
-<h3>Dream (Preview)</h3>
-<audio controls>
-    <source src="dream_preview.wav" type="audio/wav">
-    Your browser does not support the audio element.
-</audio>
+<!-- Add CSS for Flexbox (if not already included) -->
+<style>
+    .audio-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;  /* Space between elements */
+    }
+    .audio-item {
+        flex: 1;
+        text-align: center;
+    }
+    audio {
+        width: 100%;
+    }
+</style>
 
-<h3>Move (Preview)</h3>
-<audio controls>
-    <source src="move_preview.wav" type="audio/wav">
-    Your browser does not support the audio element.
-</audio>
+<!-- Flexbox Container for Current Previews -->
+<div class="audio-row">
+    <div class="audio-item">
+        <h3>Away</h3>
+        <audio controls>
+            <source src="all_the_way_preview.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="audio-item">
+        <h3>Dream</h3>
+        <audio controls>
+            <source src="dream_preview.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="audio-item">
+        <h3>Move</h3>
+        <audio controls>
+            <source src="move_preview.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
 
 <!-- Third Section: Soundtracks for Interactive Theatre -->
 <h1>Soundtracks for Interactive Theatre</h1>
+
 
 <h3>Soundtrack 1</h3>
 <audio controls>
