@@ -3,19 +3,19 @@
 
 <h3>Binds</h3>
 <audio controls>
-    <source src="binds.wav" type="audio/wav">
+    <source src="binds_preview.wav" type="audio/wav">
     Your browser does not support the audio element.
 </audio>
 
 <h3>Summer Was Fun</h3>
 <audio controls>
-    <source src="summer_was_fun.wav" type="audio/wav">
+    <source src="summer was fun_preview.wav" type="audio/wav">
     Your browser does not support the audio element.
 </audio>
 
 <h3>Deep Like the Ocean</h3>
 <audio controls>
-    <source src="deep_like_the_ocean.wav" type="audio/wav">
+    <source src="deep like the ocean_preview.wav" type="audio/wav">
     Your browser does not support the audio element.
 </audio>
 
