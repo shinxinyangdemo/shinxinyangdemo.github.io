@@ -1,5 +1,10 @@
 <!-- First Section: Past Electronic Music Productions -->
-<h1>Past Electronic Music Productions Previews</h1>
+<h1>Past Electronic Music Productions Previews, released in 2020</h1>
+
+<!-- Description -->
+<p>
+    These releases reflect my early exploration of electronic music, experimenting with a variety of genres, bold mixes, and unconventional sound designs. Although they differ from my current style, I still appreciate the creativity and concepts behind these tracks.
+</p>
 
 <!-- Add CSS for Flexbox -->
 <style>
@@ -23,6 +28,7 @@
 <div class="audio-row">
     <div class="audio-item">
         <h3>Binds</h3>
+        <i>trap, future bass</i>
         <audio controls>
             <source src="binds_preview.wav" type="audio/wav">
             Your browser does not support the audio element.
@@ -31,6 +37,7 @@
 
     <div class="audio-item">
         <h3>Summer Was Fun</h3>
+        <i>deep, melodic house</i>
         <audio controls>
             <source src="summer was fun_preview.wav" type="audio/wav">
             Your browser does not support the audio element.
@@ -39,15 +46,26 @@
 
     <div class="audio-item">
         <h3>Deep Like the Ocean</h3>
+        <i>trap</i>
         <audio controls>
             <source src="deep like the ocean_preview.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
     </div>
+
+    <div class="audio-item">
+        <h3>Blast</h3>
+        <i>riddim dubstep</i>
+        <audio controls>
+            <source src="blast_preview.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 </div>
 
-
+<!-- Image -->
 <img src="live.jpg" alt="" style="width: 100%; height: auto;">
+
 
 <!-- Second Section: Current Electronic Music Productions -->
 <h1>Current Electronic Music Productions Previews</h1>
