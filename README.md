@@ -170,7 +170,7 @@
 
     <!-- Second Row: Smaller Third Image -->
     <div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
-        <img src="theatre3.jpg" alt="Theatre Scene 3" style="max-width: 80%; height: auto;">
+        <img src="theatre3.jpg" alt="Theatre Scene 3" style="max-width: 100%; height: auto;">
     </div>
 
 </div>
