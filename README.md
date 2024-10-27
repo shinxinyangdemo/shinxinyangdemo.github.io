@@ -55,8 +55,8 @@
 
     <div class="audio-item">
         <h3>Blast</h3>
-        <i>riddim dubstep</i>
-        <p>sorry this one can be annoying haha</p>
+        <i>riddim dubstep</i><p>sorry this one can be annoying haha</p>
+        
         <audio controls>
             <source src="blast_preview.wav" type="audio/wav">
             Your browser does not support the audio element.
@@ -163,17 +163,20 @@
 </audio>
 
 <!-- Images for the Theatre Soundtracks -->
-<div style="display: flex; justify-content: space-around; margin-top: 20px;">
-    <!-- Row for the first two images -->
-    <div style="display: flex; width: 100%; justify-content: space-around;">
-        <img src="theatre1.jpg" alt="Theatre Scene 1" style="width: 45%; height: auto;">
-        <img src="theatre2.jpg" alt="Theatre Scene 2" style="width: 45%; height: auto;">
+<div style="width: 100%; margin-top: 20px;">
+
+    <!-- First Row: Two Images -->
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; width: 100%;">
+        <img src="theatre1.jpg" alt="Theatre Scene 1" style="width: 48%; height: auto; margin-bottom: 10px;">
+        <img src="theatre2.jpg" alt="Theatre Scene 2" style="width: 48%; height: auto; margin-bottom: 10px;">
     </div>
 
-    <!-- Row for the third image -->
-    <div style="margin-top: 20px; display: flex; justify-content: center;">
+    <!-- Second Row: Single Image -->
+    <div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
         <img src="theatre3.jpg" alt="Theatre Scene 3" style="width: auto; height: auto;">
     </div>
+
 </div>
+
 
 <p>"Work-in-progress theatre scenes depicting replicas of small towns from the 1990s."</p>
