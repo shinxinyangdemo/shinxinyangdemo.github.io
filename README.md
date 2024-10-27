@@ -125,6 +125,7 @@
 
 <!-- Third Section: Soundtracks for Interactive Theatre -->
 <h1>Soundtracks for Interactive Theatre</h1>
+<p>The indoor interactive theatre showcased original stories, where I took on the role of sound designer, horror-themed plays mostly.</p>
 
 
 <h3>Soundtrack 1</h3>
@@ -165,15 +166,10 @@
 <!-- Images for the Theatre Soundtracks -->
 <div style="width: 100%; margin-top: 20px;">
 
-    <!-- First Row: Two Smaller Images -->
-    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; width: 100%;">
-        <img src="theatre1.jpg" alt="Theatre Scene 1" style="width: 30%; height: auto; margin-bottom: 10px;">
-        <img src="theatre2.jpg" alt="Theatre Scene 2" style="width: 30%; height: auto; margin-bottom: 10px;">
-    </div>
 
     <!-- Second Row: Smaller Third Image -->
     <div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
-        <img src="theatre3.jpg" alt="Theatre Scene 3" style="max-width: 50%; height: auto;">
+        <img src="theatre3.jpg" alt="Theatre Scene 3" style="max-width: 80%; height: auto;">
     </div>
 
 </div>
