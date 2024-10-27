@@ -6,18 +6,15 @@
     These releases under the name 'ussoanah' (<a href="https://soundcloud.com/ussoanah/tracks" target="_blank">soundcloud.com/ussoanah/tracks</a>) reflect my early exploration of electronic music, experimenting with a variety of genres, aiming for more impactful mixes and unique sound designs. Although quite different from my current productions, I still appreciate the creativity and concepts behind these tracks.
 </p>
 
-<!-- Add CSS for Flexbox -->
+<!-- Add CSS for Grid Layout -->
 <style>
-    .audio-row {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
+    .audio-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
         gap: 20px;  /* Space between elements */
+        align-items: center;
     }
     .audio-item {
-        flex: 1;
-        min-width: 200px;  /* Ensures items wrap in smaller screens */
         text-align: center;
     }
     audio {
@@ -25,8 +22,8 @@
     }
 </style>
 
-<!-- Flexbox Container for Audio Previews -->
-<div class="audio-row">
+<!-- Grid Container for Audio Previews -->
+<div class="audio-grid">
     <!-- First Row -->
     <div class="audio-item">
         <h3>Binds</h3>
@@ -68,6 +65,7 @@
 
 <!-- Image -->
 <img src="live.jpg" alt="" style="width: 100%; height: auto;">
+
 
 
 
