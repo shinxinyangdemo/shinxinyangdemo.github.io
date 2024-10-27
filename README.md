@@ -164,7 +164,7 @@
 
 <!-- Images for the Theatre Soundtracks -->
 <div style="display: flex; justify-content: space-around; margin-top: 20px;">
-    <img src="theatre1.png" alt="Theatre back when WIP" style="width: 30%; height: auto;">
-    <img src="theatre2.png" alt="Theatre back when WIP" style="width: 30%; height: auto;">
-    <img src="theatre3.png" alt="Theatre back when WIP" style="width: 30%; height: auto;">
+    <img src="theatre1.jpg" alt="Theatre back when WIP" style="width: 30%; height: auto;">
+    <img src="theatre2.jpg" alt="Theatre back when WIP" style="width: 30%; height: auto;">
+    <img src="theatre3.jpg" alt="Theatre back when WIP" style="width: 30%; height: auto;">
 </div>
