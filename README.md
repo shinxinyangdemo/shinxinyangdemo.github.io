@@ -55,7 +55,7 @@
 
     <div class="audio-item">
         <h3>Blast</h3>
-        <i>riddim dubstep</i><p>sorry this one can be annoying haha</p>
+        <i>riddim dubstep (sorry this one can be annoying haha)</i>
         
         <audio controls>
             <source src="blast_preview.wav" type="audio/wav">
@@ -165,18 +165,19 @@
 <!-- Images for the Theatre Soundtracks -->
 <div style="width: 100%; margin-top: 20px;">
 
-    <!-- First Row: Two Images -->
+    <!-- First Row: Two Smaller Images -->
     <div style="display: flex; justify-content: space-between; flex-wrap: wrap; width: 100%;">
-        <img src="theatre1.jpg" alt="Theatre Scene 1" style="width: 48%; height: auto; margin-bottom: 10px;">
-        <img src="theatre2.jpg" alt="Theatre Scene 2" style="width: 48%; height: auto; margin-bottom: 10px;">
+        <img src="theatre1.jpg" alt="Theatre Scene 1" style="width: 30%; height: auto; margin-bottom: 10px;">
+        <img src="theatre2.jpg" alt="Theatre Scene 2" style="width: 30%; height: auto; margin-bottom: 10px;">
     </div>
 
-    <!-- Second Row: Single Image -->
+    <!-- Second Row: Smaller Third Image -->
     <div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
-        <img src="theatre3.jpg" alt="Theatre Scene 3" style="width: auto; height: auto;">
+        <img src="theatre3.jpg" alt="Theatre Scene 3" style="max-width: 50%; height: auto;">
     </div>
 
 </div>
 
 
-<p>"Work-in-progress theatre scenes depicting replicas of small towns from the 1990s."</p>
+
+<p>"Back when Work-in-progress theatre scenes depicting replicas of small towns from the 1990s."</p>
