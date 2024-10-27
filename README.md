@@ -164,7 +164,16 @@
 
 <!-- Images for the Theatre Soundtracks -->
 <div style="display: flex; justify-content: space-around; margin-top: 20px;">
-    <img src="theatre1.jpg" alt="Theatre back when WIP" style="width: 30%; height: auto;">
-    <img src="theatre2.jpg" alt="Theatre back when WIP" style="width: 30%; height: auto;">
-    <img src="theatre3.jpg" alt="Theatre back when WIP" style="width: 30%; height: auto;">
+    <!-- Row for the first two images -->
+    <div style="display: flex; width: 100%; justify-content: space-around;">
+        <img src="theatre1.jpg" alt="Theatre Scene 1" style="width: 45%; height: auto;">
+        <img src="theatre2.jpg" alt="Theatre Scene 2" style="width: 45%; height: auto;">
+    </div>
+
+    <!-- Row for the third image -->
+    <div style="margin-top: 20px; display: flex; justify-content: center;">
+        <img src="theatre3.jpg" alt="Theatre Scene 3" style="width: auto; height: auto;">
+    </div>
 </div>
+
+<p>"Work-in-progress theatre scenes depicting replicas of small towns from the 1990s."</p>
