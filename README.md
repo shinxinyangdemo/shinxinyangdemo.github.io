@@ -55,7 +55,8 @@
 
     <div class="audio-item">
         <h3>Blast</h3>
-        <i>riddim dubstep, sorry this is annoying if not into dubstep haha</i>
+        <i>riddim dubstep</i>
+        <p>sorry this one can be annoying haha</p>
         <audio controls>
             <source src="blast_preview.wav" type="audio/wav">
             Your browser does not support the audio element.
@@ -74,7 +75,7 @@
 
 <!-- Improved Description -->
 <p>
-    Way better mixed to my ears now. Focusing on tech house—one of today’s most popular genres. They showcase my latest mixing & mastering style, structures, and arrangements, laying the groundwork for my upcoming project.
+    <b>Way better mixed to my ears now.</b> Focusing on tech house—one of today’s most popular genres. They showcase my latest mixing & mastering style, structures, and arrangements, laying the groundwork for my upcoming project.
 </p>
 
 <!-- Add CSS for Flexbox (if not already included) -->
@@ -127,38 +128,43 @@
 
 
 <h3>Soundtrack 1</h3>
+<p>Start of one scene and following ambience</p>
 <audio controls>
-    <source src="soundtrack_1.wav" type="audio/wav">
+    <source src="soundtrack 2.wav" type="audio/wav">
     Your browser does not support the audio element.
 </audio>
 
 <h3>Soundtrack 2</h3>
+<p>Almost the end of one ending triggered</p>
 <audio controls>
-    <source src="soundtrack_2.wav" type="audio/wav">
+    <source src="soundtrack 3.wav" type="audio/wav">
     Your browser does not support the audio element.
 </audio>
 
 <h3>Soundtrack 3</h3>
+<p>Tension buildup</p>
 <audio controls>
-    <source src="soundtrack_3.wav" type="audio/wav">
+    <source src="soundtrack 1.wav" type="audio/wav">
     Your browser does not support the audio element.
 </audio>
 
 <h3>Soundtrack 4</h3>
+<p>Quarrel</p>
 <audio controls>
-    <source src="soundtrack_4.wav" type="audio/wav">
+    <source src="soundtrack 4.wav" type="audio/wav">
     Your browser does not support the audio element.
 </audio>
 
 <h3>Soundtrack 5</h3>
+<p>Accident happened</p>
 <audio controls>
-    <source src="soundtrack_5.wav" type="audio/wav">
+    <source src="soundtrack 5.wav" type="audio/wav">
     Your browser does not support the audio element.
 </audio>
 
 <!-- Images for the Theatre Soundtracks -->
 <div style="display: flex; justify-content: space-around; margin-top: 20px;">
-    <img src="theatre1.png" alt="Theatre Image 1" style="width: 30%; height: auto;">
-    <img src="theatre2.png" alt="Theatre Image 2" style="width: 30%; height: auto;">
-    <img src="theatre3.png" alt="Theatre Image 3" style="width: 30%; height: auto;">
+    <img src="theatre1.png" alt="Theatre back when WIP" style="width: 30%; height: auto;">
+    <img src="theatre2.png" alt="Theatre back when WIP" style="width: 30%; height: auto;">
+    <img src="theatre3.png" alt="Theatre back when WIP" style="width: 30%; height: auto;">
 </div>
