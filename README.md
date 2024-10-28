@@ -118,7 +118,7 @@
     <div class="audio-item">
         <h3>Move</h3>
         <audio controls>
-            <source src="move_preview.wav" type="audio/wav">
+            <source src="move_pre.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
     </div>
