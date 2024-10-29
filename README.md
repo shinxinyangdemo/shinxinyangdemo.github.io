@@ -76,7 +76,7 @@
 
 <!-- Improved Description -->
 <p>
-    <b>Way better mixed to my ears now.</b> Focusing on tech house—one of today’s most popular genres. They showcase my latest mixing & mastering style, structures, and arrangements, laying the groundwork for my upcoming project.
+   Focusing on tech house—one of today’s most popular genres. They showcase my latest mixing & mastering style, structures, and arrangements, laying the groundwork for my upcoming project.
 </p>
 
 <!-- Add CSS for Flexbox (if not already included) -->
