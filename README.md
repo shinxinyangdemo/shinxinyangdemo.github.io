@@ -74,6 +74,24 @@
   </div>
 </div>
 
+  <div class="audio-item">
+    <h3>Away</h3>
+    <audio controls preload="none">
+      <source src="dream_preview.wav" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+
+  <div class="audio-item">
+    <h3>Dream</h3>
+    <audio controls preload="none">
+      <source src="all_the_way_preview.wav" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+
 <script>
   const audios = Array.from(document.querySelectorAll('audio'));
   audios.forEach(a => {
