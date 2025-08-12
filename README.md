@@ -74,16 +74,7 @@
   </div>
 </div>
 
-<script>
-  const audios = Array.from(document.querySelectorAll('audio'));
-  audios.forEach(a => {
-    a.addEventListener('play', () => {
-      audios.forEach(b => {
-        if (b !== a && !b.paused) b.pause();
-      });
-    });
-  });
-</script>
+
 
 
 <!-- Image -->
@@ -143,5 +134,16 @@
 
 
 <p>"Back when Work-in-progress, one of the theatre scenes, depicting replicas of small towns from the 1990s."</p>
+
+<script>
+  const audios = Array.from(document.querySelectorAll('audio'));
+  audios.forEach(a => {
+    a.addEventListener('play', () => {
+      audios.forEach(b => {
+        if (b !== a && !b.paused) b.pause();
+      });
+    });
+  });
+</script>
 
 <h1>End</h1>
