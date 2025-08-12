@@ -7,36 +7,18 @@
     Previews of tracks I made years ago submit to (<a href="https://soundcloud.com/ussoanah/tracks" target="_blank">soundcloud.com/ussoanah/tracks</a>). 
 </p>
 
-<!-- Add CSS for Grid Layout -->
 <style>
-    .audio-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Two columns */
-        gap: 20px;  /* Space between elements */
-        align-items: center;
-    }
-    .audio-item {
-        text-align: center;
-    }
-    audio {
-        width: 100%;
-    }
-</style>
-
-<style>
-  .audio-row {
-    display: flex;
-    flex-wrap: wrap;
+  .audio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
+    align-items: start;
   }
-  .audio-item {
-    flex: 1 1 300px;   
-    text-align: center;
-  }
+  .audio-item { text-align: center; }
   audio { width: 100%; }
 </style>
 
-<div class="audio-row">
+<div class="audio-grid">
   <div class="audio-item">
     <h3>Binds</h3>
     <audio controls preload="none">
@@ -72,21 +54,21 @@
       Your browser does not support the audio element.
     </audio>
   </div>
-</div>
 
   <div class="audio-item">
     <h3>Away</h3>
     <audio controls preload="none">
-      <source src="dream_preview.wav" type="audio/mpeg">
+      <source src="all_the_way_preview.mp3" type="audio/mpeg">
+      <source src="all_the_way_preview.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
-</div>
 
   <div class="audio-item">
     <h3>Dream</h3>
     <audio controls preload="none">
-      <source src="all_the_way_preview.wav" type="audio/mpeg">
+      <source src="dream_preview.mp3" type="audio/mpeg">
+      <source src="dream_preview.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
