@@ -23,7 +23,6 @@
     }
 </style>
 
-<!-- 统一一个容器类：audio-row（Flex） -->
 <style>
   .audio-row {
     display: flex;
@@ -31,7 +30,7 @@
     gap: 20px;
   }
   .audio-item {
-    flex: 1 1 300px;   /* 每项最小宽度 300px，自适应换行 */
+    flex: 1 1 300px;   
     text-align: center;
   }
   audio { width: 100%; }
