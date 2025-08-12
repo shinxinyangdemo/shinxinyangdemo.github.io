@@ -159,4 +159,3 @@
 <p>"Back when Work-in-progress, one of the theatre scenes, depicting replicas of small towns from the 1990s."</p>
 
 <h1>End</h1>
-<p>Thank you for taking the time to explore my work! If you’d like to hear more, or the full version of unreleased tracks, I’d be glad to share! I’m confident that my experience and insights can provide valuable guidance and constructive feedback to support students in their creative endeavors.</p>
