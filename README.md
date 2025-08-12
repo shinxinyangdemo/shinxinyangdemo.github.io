@@ -23,86 +23,73 @@
     }
 </style>
 
-<!-- Grid Container for Audio Previews -->
-<div class="audio-grid">
-    <!-- First Row -->
-    <div class="audio-item">
-        <h3>Binds</h3>
-        <i>trap, future bass</i>
-        <audio controls>
-            <source src="binds_preview.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-
-    <div class="audio-item">
-        <h3>Summer Was Fun</h3>
-        <i>deep, melodic house</i>
-        <audio controls>
-            <source src="summer was fun_preview.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-
-    <!-- Second Row -->
-    <div class="audio-item">
-        <h3>Deep Like the Ocean</h3>
-        <i>trap</i>
-        <audio controls>
-            <source src="deep like the ocean_preview.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-
-    <div class="audio-item">
-        <h3>Blast</h3>
-        <i>riddim dubstep (sorry this one can be annoying haha)</i>
-        
-        <audio controls>
-            <source src="blast_preview.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-</div>
-
-<!-- Add CSS for Flexbox (if not already included) -->
+<!-- 统一一个容器类：audio-row（Flex） -->
 <style>
-    .audio-row {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 20px;  /* Space between elements */
-    }
-    .audio-item {
-        flex: 1;
-        text-align: center;
-    }
-    audio {
-        width: 100%;
-    }
+  .audio-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .audio-item {
+    flex: 1 1 300px;   /* 每项最小宽度 300px，自适应换行 */
+    text-align: center;
+  }
+  audio { width: 100%; }
 </style>
 
-<!-- Flexbox Container for Current Previews -->
 <div class="audio-row">
-    <div class="audio-item">
-        <h3>Away</h3>
-        <audio controls>
-            <source src="all_the_way_preview.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-    </div>
+  <div class="audio-item">
+    <h3>Binds</h3>
+    <audio controls preload="none">
+      <source src="binds_preview.mp3" type="audio/mpeg">
+      <source src="binds_preview.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
 
-    <div class="audio-item">
-        <h3>Dream</h3>
-        <audio controls>
-            <source src="dream_preview.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-    </div>
+  <div class="audio-item">
+    <h3>Summer Was Fun</h3>
+    <audio controls preload="none">
+      <source src="summer-was-fun_preview.mp3" type="audio/mpeg">
+      <source src="summer-was-fun_preview.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="audio-item">
+    <h3>Deep Like the Ocean</h3>
+    <audio controls preload="none">
+      <source src="deep-like-the-ocean_preview.mp3" type="audio/mpeg">
+      <source src="deep-like-the-ocean_preview.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="audio-item">
+    <h3>Blast</h3>
+    <audio controls preload="none">
+      <source src="blast_preview.mp3" type="audio/mpeg">
+      <source src="blast_preview.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+
+<script>
+  const audios = Array.from(document.querySelectorAll('audio'));
+  audios.forEach(a => {
+    a.addEventListener('play', () => {
+      audios.forEach(b => {
+        if (b !== a && !b.paused) b.pause();
+      });
+    });
+  });
+</script>
+
 
 <!-- Image -->
-<img src="live.jpg" alt="" style="width: 100%; height: auto;">
+<img src="live.jpg" alt="Live DJing" style="width: 100%; height: auto;">
+<p>Live DJing <span>📍Hialeah, FL</span></p>
 
 <!-- Third Section: Soundtracks for Interactive Theatre -->
 <h1>Soundtracks for Interactive Theatre</h1>
