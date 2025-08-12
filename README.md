@@ -31,8 +31,7 @@
   <div class="audio-item">
     <h3>Summer Was Fun</h3>
     <audio controls preload="none">
-      <source src="summer-was-fun_preview.mp3" type="audio/mpeg">
-      <source src="summer-was-fun_preview.wav" type="audio/wav">
+      <source src="summer was fun_preview.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
@@ -40,8 +39,7 @@
   <div class="audio-item">
     <h3>Deep Like the Ocean</h3>
     <audio controls preload="none">
-      <source src="deep-like-the-ocean_preview.mp3" type="audio/mpeg">
-      <source src="deep-like-the-ocean_preview.wav" type="audio/wav">
+      <source src="deep like the ocean_preview.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
