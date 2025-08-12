@@ -1,10 +1,10 @@
 <!-- First Section: Past Electronic Music Productions -->
 <p>This is the page for my productions showcase, for my research output demos: (<a href="https://shinxinyangdemo.github.io/shinxinyangdemo.github.io-rs/" target="_blank">shinxinyangdemo.github.io/shinxinyangdemo.github.io-rs//</a>)</p>
-<h1>Past Electronic Music Productions Previews, released in 2020</h1>
+<h1>Electronic Music Productions Previews</h1>
 
 <!-- Description -->
 <p>
-    These releases under the name 'ussoanah' (<a href="https://soundcloud.com/ussoanah/tracks" target="_blank">soundcloud.com/ussoanah/tracks</a>) reflect my early exploration of electronic music, experimenting with a variety of genres, aiming for more impactful mixes and unique sound designs. Although quite different from my current productions, I still like the ideas behind these tracks.
+    Previews of tracks I made years ago submit to (<a href="https://soundcloud.com/ussoanah/tracks" target="_blank">soundcloud.com/ussoanah/tracks</a>). 
 </p>
 
 <!-- Add CSS for Grid Layout -->
@@ -65,20 +65,6 @@
     </div>
 </div>
 
-<!-- Image -->
-<img src="live.jpg" alt="" style="width: 100%; height: auto;">
-
-
-
-
-<!-- Second Section: Current Electronic Music Productions -->
-<h1>Current Electronic Music Productions Previews (Unreleased)</h1>
-
-<!-- Improved Description -->
-<p>
-   Focusing on tech house—one of today’s most popular genres. They showcase my latest mixing & mastering style, structures, and arrangements, laying the groundwork for my upcoming project.
-</p>
-
 <!-- Add CSS for Flexbox (if not already included) -->
 <style>
     .audio-row {
@@ -115,14 +101,8 @@
         </audio>
     </div>
 
-    <div class="audio-item">
-        <h3>Move</h3>
-        <audio controls>
-            <source src="move_pre.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-</div>
+<!-- Image -->
+<img src="live.jpg" alt="" style="width: 100%; height: auto;">
 
 <!-- Third Section: Soundtracks for Interactive Theatre -->
 <h1>Soundtracks for Interactive Theatre</h1>
