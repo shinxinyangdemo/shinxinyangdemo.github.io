@@ -4,7 +4,7 @@
 
 <!-- Description -->
 <p>
-    Previews of tracks I made years ago submit to (<a href="https://soundcloud.com/ussoanah/tracks" target="_blank">soundcloud.com/ussoanah/tracks</a>). 
+    Previews of tracks I made years ago submit to (<a href="https://soundcloud.com/ussoanah/tracks" target="_blank">soundcloud.com/ussoanah/tracks</a>). And some made recently unreleased.
 </p>
 
 <style>
