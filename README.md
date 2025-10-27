@@ -63,7 +63,7 @@
     </audio>
   </div>
 
-    <div class="audio-item">
+  <div class="audio-item">
     <h3>Blast</h3>
     <audio controls preload="none">
       <source src="blast_preview.mp3" type="audio/mpeg">
