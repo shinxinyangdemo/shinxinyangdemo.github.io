@@ -44,14 +44,6 @@
     </audio>
   </div>
 
-  <div class="audio-item">
-    <h3>Blast</h3>
-    <audio controls preload="none">
-      <source src="blast_preview.mp3" type="audio/mpeg">
-      <source src="blast_preview.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
 
   <div class="audio-item">
     <h3>Away</h3>
@@ -70,6 +62,16 @@
       Your browser does not support the audio element.
     </audio>
   </div>
+
+    <div class="audio-item">
+    <h3>Blast</h3>
+    <audio controls preload="none">
+      <source src="blast_preview.mp3" type="audio/mpeg">
+      <source src="blast_preview.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  
 </div>
 
 
